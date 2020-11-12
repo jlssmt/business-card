@@ -59,11 +59,14 @@
 .skills {
   display: flex;
   justify-content: space-between;
+  height: 200px;
 
-  > * {
+  .item-group {
+    margin: 20px;
     width: calc(100% / 3);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+
+    .item:nth-child(n+3) {
+      margin-top: 20px;
+    }
   }
 }
