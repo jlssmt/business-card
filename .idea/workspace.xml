@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="408b3168-b63d-4dae-83d7-b50a88de1f9e" name="Default Changelist" comment="">
+    <list default="true" id="408b3168-b63d-4dae-83d7-b50a88de1f9e" name="Default Changelist" comment="added material side-nav">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/navigation/navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/navigation/navigation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/MEGA/Programming/NodeJS" />
@@ -54,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605185995146</updated>
-      <workItem from="1605185996188" duration="920000" />
+      <workItem from="1605185996188" duration="1556000" />
     </task>
     <task id="LOCAL-00001" summary="added angular material">
       <created>1605186367162</created>
@@ -70,22 +77,35 @@
       <option name="project" value="LOCAL" />
       <updated>1605186660846</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added material side-nav">
+      <created>1605187123982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605187123982</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added angular material" />
     <MESSAGE value="added .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
+    <MESSAGE value="added material side-nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="added material side-nav" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="513" y="136" key="CommitChangelistDialog2" timestamp="1605186660213">
+    <state x="513" y="136" key="CommitChangelistDialog2" timestamp="1605187406548">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="513" y="136" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1605186660213" />
+    <state x="513" y="136" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1605187406548" />
+    <state x="208" y="98" key="DiffContextDialog" timestamp="1605187253473">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="208" y="98" key="DiffContextDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1605187253473" />
     <state x="824" y="481" key="Github.ShareDialog" timestamp="1605186058818">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -94,5 +114,9 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="666" y="305" key="Github.UntrackedFilesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1605186218179" />
+    <state x="552" y="308" key="Vcs.Push.Dialog.v2" timestamp="1605187243545">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="552" y="308" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1605187243545" />
   </component>
 </project>
