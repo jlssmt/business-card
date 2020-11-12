@@ -57,9 +57,13 @@
 }
 
 .skills {
+  background-color: grey;
   display: flex;
   justify-content: space-between;
-  height: 200px;
+
+  p {
+    text-align: center;
+  }
 
   .item-group {
     margin: 20px;
