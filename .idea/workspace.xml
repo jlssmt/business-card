@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="408b3168-b63d-4dae-83d7-b50a88de1f9e" name="Default Changelist" comment="added material side-nav">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.ts" afterDir="false" />
+    <list default="true" id="408b3168-b63d-4dae-83d7-b50a88de1f9e" name="Default Changelist" comment="added router-outlet and first view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/navigation/navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/navigation/navigation.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/views/home/home.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/MEGA/Programming/NodeJS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/assets" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -49,9 +46,22 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Julius\Documents\MEGAsync\Programming\Angular\business-card\frontend\src\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Julius\Documents\MEGAsync\Programming\Angular\business-card\frontend\src\assets\private" />
       <recent name="C:\Users\Julius\Documents\MEGAsync\Programming\Angular\business-card\frontend\src\app\components" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605185995146</updated>
-      <workItem from="1605185996188" duration="1556000" />
+      <workItem from="1605185996188" duration="12033000" />
     </task>
     <task id="LOCAL-00001" summary="added angular material">
       <created>1605186367162</created>
@@ -84,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605187123982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added router-outlet and first view">
+      <created>1605187692610</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605187692610</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,13 +112,18 @@
     <MESSAGE value="added angular material" />
     <MESSAGE value="added .gitignore" />
     <MESSAGE value="added material side-nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="added material side-nav" />
+    <MESSAGE value="added router-outlet and first view" />
+    <option name="LAST_COMMIT_MESSAGE" value="added router-outlet and first view" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="513" y="136" key="CommitChangelistDialog2" timestamp="1605187406548">
+    <state x="414" y="234" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605206621620">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="513" y="136" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1605187406548" />
+    <state x="414" y="234" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1605206621620" />
+    <state x="513" y="136" key="CommitChangelistDialog2" timestamp="1605211266127">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="513" y="136" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1605211266127" />
     <state x="208" y="98" key="DiffContextDialog" timestamp="1605187253473">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -114,9 +136,37 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="666" y="305" key="Github.UntrackedFilesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1605186218179" />
-    <state x="552" y="308" key="Vcs.Push.Dialog.v2" timestamp="1605187243545">
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1605214982669">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="552" y="308" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1605187243545" />
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1605214982669" />
+    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1605214982668">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1605214982668" />
+    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1605214982668">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1605214982668" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1605214982669">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1605214982669" />
+    <state x="660" y="301" key="RollbackChangesDialog" timestamp="1605207167370">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="660" y="301" key="RollbackChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1605207167370" />
+    <state x="552" y="308" key="Vcs.Push.Dialog.v2" timestamp="1605187782817">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="552" y="308" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1605187782817" />
+    <state x="772" y="489" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605210737323">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="772" y="489" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1160@0.0.1920.1160" timestamp="1605210737323" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1605207795355">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1605207795355" />
   </component>
 </project>

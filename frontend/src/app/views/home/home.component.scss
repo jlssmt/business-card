@@ -1,0 +1,69 @@
+.intro {
+  background: grey;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+
+  .intro-content {
+    display: flex;
+    flex-direction: column;
+
+    .contact-details {
+      display: flex;
+      align-items: center;
+
+      a, span {
+        margin-left: 10px;
+        text-decoration: none;
+        color: unset;
+      }
+    }
+  }
+
+  .intro-picture {
+    background-image: url("/assets/private/IMG_20200629_175743.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 10px;
+  }
+}
+
+
+.mat-card {
+  margin-top: 50px;
+
+  .mat-card-content {
+    text-align: center;
+  }
+
+  .mat-card-actions {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+
+  h1 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+
+  > * {
+    width: calc(100% / 3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
