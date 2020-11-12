@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="408b3168-b63d-4dae-83d7-b50a88de1f9e" name="Default Changelist" comment="added angular material">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="408b3168-b63d-4dae-83d7-b50a88de1f9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +21,9 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1kBtpbPK11U7OpQ26L1KXSwXAwl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,6 +41,11 @@
     <property name="ts.external.directory.path" value="C:\Users\Julius\Documents\MEGAsync\Programming\Angular\business-card\frontend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Julius\Documents\MEGAsync\Programming\Angular\business-card\frontend\src\app\components" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605185995146</updated>
-      <workItem from="1605185996188" duration="610000" />
+      <workItem from="1605185996188" duration="920000" />
     </task>
     <task id="LOCAL-00001" summary="added angular material">
       <created>1605186367162</created>
@@ -55,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605186367162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added .gitignore">
+      <created>1605186660846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605186660846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,13 +78,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added angular material" />
-    <option name="LAST_COMMIT_MESSAGE" value="added angular material" />
+    <MESSAGE value="added .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="513" y="136" key="CommitChangelistDialog2" timestamp="1605186366377">
+    <state x="513" y="136" key="CommitChangelistDialog2" timestamp="1605186660213">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="513" y="136" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1605186366377" />
+    <state x="513" y="136" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1605186660213" />
     <state x="824" y="481" key="Github.ShareDialog" timestamp="1605186058818">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
