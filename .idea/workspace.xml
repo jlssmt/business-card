@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="408b3168-b63d-4dae-83d7-b50a88de1f9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+    <list default="true" id="408b3168-b63d-4dae-83d7-b50a88de1f9e" name="Default Changelist" comment="added angular material">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +29,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/MEGA/Programming/NodeJS" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Julius\Documents\MEGAsync\Programming\Angular\business-card\frontend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -42,11 +46,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605185995146</updated>
-      <workItem from="1605185996188" duration="310000" />
+      <workItem from="1605185996188" duration="610000" />
     </task>
+    <task id="LOCAL-00001" summary="added angular material">
+      <created>1605186367162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605186367162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added angular material" />
+    <option name="LAST_COMMIT_MESSAGE" value="added angular material" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="513" y="136" key="CommitChangelistDialog2" timestamp="1605186366377">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="513" y="136" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1605186366377" />
+    <state x="824" y="481" key="Github.ShareDialog" timestamp="1605186058818">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="824" y="481" key="Github.ShareDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1605186058818" />
+    <state x="666" y="305" key="Github.UntrackedFilesDialog" timestamp="1605186218179">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="666" y="305" key="Github.UntrackedFilesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1605186218179" />
   </component>
 </project>
