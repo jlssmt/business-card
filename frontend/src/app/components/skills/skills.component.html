@@ -1,33 +1,7 @@
-<div class="item-group">
-  <p class="mat-h2">Tech</p>
-  <div class="item">
-    <span>Angular</span>
-    <mat-progress-bar mode="determinate" value="80" color="accent"></mat-progress-bar>
-  </div>
-  <div class="item">
-    <span>NodeJS</span>
-    <mat-progress-bar mode="determinate" value="80" color="accent"></mat-progress-bar>
-  </div>
-</div>
-<div class="item-group">
-  <p class="mat-h2">Tech</p>
-  <div class="item">
-    <span>Angular</span>
-    <mat-progress-bar mode="determinate" value="80" color="accent"></mat-progress-bar>
-  </div>
-  <div class="item">
-    <span>NodeJS</span>
-    <mat-progress-bar mode="determinate" value="80" color="accent"></mat-progress-bar>
-  </div>
-</div>
-<div class="item-group">
-  <p class="mat-h2">Tech</p>
-  <div class="item">
-    <span>Angular</span>
-    <mat-progress-bar mode="determinate" value="80" color="accent"></mat-progress-bar>
-  </div>
-  <div class="item">
-    <span>NodeJS</span>
-    <mat-progress-bar mode="determinate" value="80" color="accent"></mat-progress-bar>
+<div class="item-group" *ngFor="let group of data">
+  <p class="mat-h2">{{group.groupName}}</p>
+  <div class="item" *ngFor="let item of group.skills">
+    <span>{{item.skillName}}</span>
+    <mat-progress-bar mode="determinate" [value]="item.percentage" color="accent"></mat-progress-bar>
   </div>
 </div>
