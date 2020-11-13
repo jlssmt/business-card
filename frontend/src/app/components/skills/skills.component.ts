@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { SkillsInterface } from '../../../interfaces/skills.interface';
 
 @Component({
@@ -8,29 +8,8 @@ import { SkillsInterface } from '../../../interfaces/skills.interface';
 })
 export class SkillsComponent implements OnInit {
 
-  data: SkillsInterface[] = [
-    {
-      groupName: 'Professional',
-      skills: [
-        { skillName: 'Angular', percentage: 90 },
-        { skillName: 'NodeJS', percentage: 80 }
-      ]
-    },
-    {
-      groupName: 'Personal',
-      skills: [
-        { skillName: 'Angular', percentage: 90 },
-        { skillName: 'NodeJS', percentage: 80 }
-      ]
-    },
-    {
-      groupName: 'Software',
-      skills: [
-        { skillName: 'Angular', percentage: 90 },
-        { skillName: 'NodeJS', percentage: 80 }
-      ]
-    },
-  ];
+  @Input()
+  data: SkillsInterface[];
 
   constructor() {
   }
