@@ -1,0 +1,22 @@
+@import "~src/variables.scss";
+
+:host {
+  background-color: mat-color($mat-grey, 500);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.item-group {
+  margin: 20px;
+  width: calc(100% / 3);
+
+  p {
+    text-align: center;
+  }
+
+  .item:nth-child(n+3) {
+    margin-top: 20px;
+  }
+}

@@ -14,14 +14,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { IntroComponent } from './components/intro/intro.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { SkillsComponent } from './components/skills/skills.component';
 import { HomeComponent } from './views/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    HomeComponent
+    HomeComponent,
+    SkillsComponent,
+    IntroComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,

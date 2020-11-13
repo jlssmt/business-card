@@ -1,0 +1,35 @@
+@import "~src/variables.scss";
+
+:host {
+  background-color: mat-color($mat-indigo, 500);
+  color: white;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+
+  .contact-details {
+    display: flex;
+    align-items: center;
+
+    a, span {
+      margin-left: 10px;
+      text-decoration: none;
+      color: unset;
+    }
+  }
+}
+
+.intro-picture {
+  background-image: url("~src/assets/private/IMG_20200629_175743.jpg");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  border-radius: 10px;
+}
