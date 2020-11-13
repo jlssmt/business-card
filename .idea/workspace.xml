@@ -75,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605185995146</updated>
       <workItem from="1605185996188" duration="13145000" />
-      <workItem from="1605217898167" duration="5173000" />
+      <workItem from="1605217898167" duration="5418000" />
     </task>
     <task id="LOCAL-00001" summary="added angular material">
       <created>1605186367162</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605220081324</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="restyled home site">
+      <created>1605267959418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605267959418</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +147,8 @@
     <MESSAGE value="added router-outlet and first view" />
     <MESSAGE value="added first content boxes" />
     <MESSAGE value="added skill box" />
-    <option name="LAST_COMMIT_MESSAGE" value="added skill box" />
+    <MESSAGE value="restyled home site" />
+    <option name="LAST_COMMIT_MESSAGE" value="restyled home site" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -150,10 +158,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="414" y="234" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1605206621620" />
-    <state x="513" y="136" key="CommitChangelistDialog2" timestamp="1605220080536">
+    <state x="513" y="136" key="CommitChangelistDialog2" timestamp="1605267958552">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="513" y="136" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1605220080536" />
+    <state x="513" y="136" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1605267958551" />
     <state x="208" y="98" key="DiffContextDialog" timestamp="1605187253473">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -186,10 +194,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="660" y="301" key="RollbackChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1605207167370" />
-    <state x="552" y="308" key="Vcs.Push.Dialog.v2" timestamp="1605220082516">
+    <state x="552" y="308" key="Vcs.Push.Dialog.v2" timestamp="1605267960470">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="552" y="308" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1605220082516" />
+    <state x="552" y="308" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1605267960470" />
     <state x="772" y="489" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605210737323">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
